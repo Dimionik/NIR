@@ -426,4 +426,4 @@ optimizerPSO = ps.single.GlobalBestPSO(n_particles=swarm_size,
 final_best_cost, final_best_pos = optimizerPSO.optimize(fitness_func, iters=5)
 
 print('final_best_cost     final_best_pos\n'
-      '{0:.4f},            {1:.4f}'.format(final_best_cost, final_best_pos))
+      '{},                 {}'.format(final_best_cost, final_best_pos))
