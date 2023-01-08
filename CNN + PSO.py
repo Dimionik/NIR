@@ -173,6 +173,9 @@ CNN
 def CNN(chosen_optimizer, epo, numero_gen=1, preparation=None, plot=None):
     # global
     print(f'Начало CNN\n')
+    
+    epo = np.int32(epo)
+    chosen_optimizer = np.int32(chosen_optimizer)
 
     path_to_spec = f'{path_to_GTZAN}\\genres_spec'
 
